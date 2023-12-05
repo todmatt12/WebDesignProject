@@ -64,16 +64,14 @@ body {
   }
   
   .Main {
-    color: black;
     text-align: center;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 100px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
   }
-  
+
   .Main ul li {
     list-style: none;
-    padding: 5px;
   }
   
   /* Page 2 Contact*/
@@ -92,19 +90,17 @@ body {
   
   .Main2 {
     text-align: center;
-  }
-  
-  .Main2 li {
-    list-style: none;
-    color: black;
-    border-radius: 10px;
+    margin: 0 auto; 
+    max-width: 800px; 
   }
   
   .Main2 ul {
-    text-align: center;
-    width: 700px;
-    padding: 50px;
-    margin: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Main2 li {
+    padding: 10px;
   }
   
   /* Page 3 About */
@@ -121,8 +117,17 @@ body {
     text-align: center;
   }  
   
-  #float-image {
-    float: left;
+  .Main3 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .Main3 img.bottom-image {
+    width: 150px;
+    height: auto;
+    margin-top: 20px; 
   }
 
   /* Page 4 Projects */
